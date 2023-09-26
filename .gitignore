@@ -5,10 +5,9 @@ target/
 !**/src/test/**/target/
 
 # Ignorar o diretório db.migration dentro de resources
-src/main/resources/db.migration/
+src/main/resources/*
 
-# Ignorar o arquivo application.properties dentro de resources
-src/main/resources/application.properties
+
 
 ### STS ###
 .apt_generated
