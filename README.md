@@ -21,7 +21,7 @@ Exemplo:
   spring.datasource.username=seuusuario
   spring.datasource.password=suasenha
 
-Instruções de Instalação
+<h2>Instruções de Instalação</h2>
 1. Clone este repositório em seu ambiente de desenvolvimento.
     git clone https://github.com/seu-usuario/seu-projeto.git
 
