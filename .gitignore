@@ -5,7 +5,7 @@ target/
 !**/src/test/**/target/
 
 # Ignorar o diretório db.migration dentro de resources
-src/main/resources/*
+src/main/resources/
 
 
 
