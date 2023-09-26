@@ -13,13 +13,12 @@ Antes de começar, certifique-se de ter as seguintes ferramentas e tecnologias i
 * Git (opcional)
 
 <h2>Configuração do Banco de Dados</h2>
-Crie um banco de dados para o projeto.
+* Crie um banco de dados para o projeto.
 
-Configure as credenciais do banco de dados no arquivo application.properties no projeto Spring.
-Exemplo:
-  spring.datasource.url=jdbc:mysql://localhost:3306/seubanco
-  spring.datasource.username=seuusuario
-  spring.datasource.password=suasenha
+<h3>Configure as credenciais do banco de dados no arquivo application.properties no projeto Spring. Exemplo:</h3>
+  spring.datasource.url=jdbc:mysql://localhost:3306/seubanco</br>
+  spring.datasource.username=seuusuario</br>
+  spring.datasource.password=suasenha</br>
 
 <h2>Instruções de Instalação</h2>
 1. Clone este repositório em seu ambiente de desenvolvimento.
