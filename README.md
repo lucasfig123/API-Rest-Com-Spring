@@ -7,10 +7,10 @@ Este projeto consiste em uma API RESTful para realizar operações básicas de g
 <h3>Requisitos</h3>
 Antes de começar, certifique-se de ter as seguintes ferramentas e tecnologias instaladas em seu ambiente de desenvolvimento:
 
-*Java SDK
-*Spring Boot
-*Banco de Dados (por exemplo, MySQL, PostgreSQL)
-*Git (opcional)
+* Java SDK
+* Spring Boot
+* Banco de Dados (por exemplo, MySQL, PostgreSQL)
+* Git (opcional)
 
 <h2>Configuração do Banco de Dados</h2>
 Crie um banco de dados para o projeto.
