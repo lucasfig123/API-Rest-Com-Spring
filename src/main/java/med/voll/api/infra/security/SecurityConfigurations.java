@@ -16,7 +16,7 @@ import org.springframework.security.web.SecurityFilterChain;
 @EnableWebSecurity
 public class SecurityConfigurations {
 
-    /* A anotação @Bean serve para exportar uma classe para o Sprin, fazendo com que ele consiga
+    /* A anotação @Bean serve para exportar uma classe para o Spring, fazendo com que ele consiga
     * carregá-la  e realize a sua injeção de depêndencia em outras classes*/
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
