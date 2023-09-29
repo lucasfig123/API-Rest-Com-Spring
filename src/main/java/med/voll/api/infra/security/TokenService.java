@@ -15,6 +15,7 @@ import java.util.Date;
 @Service
 public class TokenService {
 
+    /*Anotação abaixo foi configurada em application.properties*/
     @Value("${api.security.token.secret}")
     private String secret;
 
@@ -35,4 +36,9 @@ public class TokenService {
         return LocalDateTime.now().plusHours(2).toInstant(ZoneOffset.of("-03:00"));
     }
 }
+/*Esta classe é responsável por gerar tokens JWT para os usuários autenticados.
+Usa a biblioteca Java JWT (jjwt) para criar tokens com informações como o emissor, o assunto (geralmente o nome de usuário), a data de expiração e uma assinatura criptografada.
+O token JWT gerado é retornado para o AutenticacaoController.*/
+
+
 

@@ -39,3 +39,7 @@ public class SecurityConfigurations {
         return new BCryptPasswordEncoder();
     }
 }
+/*Esta é uma classe de configuração do Spring Security.
+O método securityFilterChain configura as regras de segurança, desabilitando o CSRF e configurando a política de criação de sessão para STATELESS, o que significa que as sessões não serão mantidas no servidor.
+O método authenticationManager cria e configura o AuthenticationManager para ser usado pelo Spring Security. O AuthenticationManager é usado para autenticar os usuários.
+O método passwordEncoder configura o codificador de senhas. No seu caso, você está usando o BCrypt para codificar senhas.*/
