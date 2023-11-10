@@ -35,6 +35,10 @@ public class TratadorDeErros {
         var erros = ex.getFieldErrors();
         return ResponseEntity.badRequest().body(erros.stream().map(DadosErroValidacao::new).toList());
     }
+    @ExceptionHandler(ValidacaoException.class)
+    public ResponseEntity tratarErroRegraDeNegocio(ValidacaoException ex){
+        return ResponseEntity.badRequest().body(ex.getMessage());
+    }
 
     //metodo utilizado para filtrar apenas as informações necessárias na saída, por exemplo no POST do Insomnia:
     //[
