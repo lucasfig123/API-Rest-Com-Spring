@@ -6,7 +6,8 @@ target/
 
 # Ignorar o diretório db.migration dentro de resources
 src/main/resources/
-
+# Ignorar diretório de anotacoes
+/src/main/java/med/voll/api/domain/consulta/validacoes/anotacoes
 
 
 ### STS ###
@@ -36,3 +37,4 @@ build/
 
 ### VS Code ###
 .vscode/
+

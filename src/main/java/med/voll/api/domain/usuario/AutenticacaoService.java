@@ -16,3 +16,5 @@ public class AutenticacaoService implements UserDetailsService {
         return repository.findByLogin(username);
     }
 }
+/*Essa classe implementa a interface UserDetailsService, que é parte do Spring Security e é usada para carregar detalhes do usuário durante o processo de autenticação.
+O método loadUserByUsername é chamado quando o AuthenticationManager precisa carregar os detalhes do usuário com base no nome de usuário (login) fornecido.*/
