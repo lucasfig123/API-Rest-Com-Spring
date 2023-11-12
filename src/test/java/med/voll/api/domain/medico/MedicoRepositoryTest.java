@@ -21,7 +21,7 @@ import java.time.temporal.TemporalAdjusters;
 import static org.junit.jupiter.api.Assertions.*;
 
 
-// A anotação @DataJpaTest é utilizada para testar uma interface Repository
+// A anotação @DataJpaTest é utilizada para testar uma interface Repository, conexao ao banco de dados
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = AutoConfigureTestDatabase.Replace.NONE)
 @ActiveProfiles("test")
